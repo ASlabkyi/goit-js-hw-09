@@ -16,6 +16,7 @@ function handleChangeColor() {
 
 function handleStopingChangeColor() {
   clearInterval(changeColorInterval);
+  changeColorInterval = null;
 }
 
 function getRandomHexColor() {
