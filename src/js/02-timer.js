@@ -47,7 +47,6 @@ function handleTimer(selectedDate) {
         clearInterval(timerInterval);
       }
       addLeadingZero(timeToEnd);
-      console.log(convertMs(timeToEnd));
     }, 1000);
   }
 }
